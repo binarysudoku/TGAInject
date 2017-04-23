@@ -1,0 +1,15 @@
+﻿  TGAInject_PROTO.cpp
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(14): error C2653: 'Image': is not a class or namespace name
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(16): warning C4508: 'Image': function should return a value; 'void' return type assumed
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(24): warning C4244: 'initializing': conversion from 'std::streamoff' to '::size_t', possible loss of data
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(51): error C2146: syntax error: missing ';' before identifier 'InputMask'
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(51): warning C4551: function call missing argument list
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(51): error C2065: 'InputMask': undeclared identifier
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(52): error C2146: syntax error: missing ';' before identifier 'InputImage'
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(52): warning C4551: function call missing argument list
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(52): error C2065: 'InputImage': undeclared identifier
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(53): error C2146: syntax error: missing ';' before identifier 'OutputImage'
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(53): warning C4551: function call missing argument list
+c:\users\erin\documents\visual studio 2017\projects\tgainject_proto\tgainject_proto\tgainject_proto.cpp(53): error C2065: 'OutputImage': undeclared identifier
