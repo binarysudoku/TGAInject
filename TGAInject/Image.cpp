@@ -9,7 +9,7 @@ Image::Image(vector<char> buffer)
 	
 }
 
-void Image::ReadChunkInfo(vector<char> buffer)
+void Image::ReadChunkInfo(vector<char> buffer) //read chunk info from buffer to chunkinfo
 {
 	//set CMapData offset to offset of ImgID + the files IDLength
 	ImgChunks.SetCMapData(ImgChunks.ImgID + (int)buffer[ImgChunks.IDLength]);

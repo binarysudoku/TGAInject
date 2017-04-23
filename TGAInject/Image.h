@@ -42,13 +42,20 @@ class Image
 		
 		void TransferChannel(Image img, int channelID);
 		void ReadChunkInfo(vector<char> buffer); //read chunk info from buffer to chunkinfo
-		void WriteImageData(vector<char> buffer, ChunkInfo chunks); //write image information from buffer to ImageInfo
-		void WriteImageChannel(vector<char> buffer, Channel channel); //write channel data from buffer using chunks
+		void WriteImageData(vector<char> buffer, ChunkInfo chunks); //write image information from buffer using chunks
+		void WriteImageChannel(vector<char> buffer, ChunkInfo chunks, Channel channels[]); //write channel data from buffer using chunks
 
-		Channel Channels[4];
+		//Data locations in file
 		ChunkInfo ImgChunks;
 
+		//Image metrics
+		int width;
+		int height;
+		int pixeldepth;
+
+		//Image Data
 		vector<char> buffer;
+		Channel channels[4];
 };
 
 class Channel

@@ -37,6 +37,9 @@ class ChunkInfo
 		void SetCMapData(int i);
 		void SetImgData(int i);
 		void SetDevData(int i);
+		
+		//test functions
+		void TEST_DumpChunkInfo();
 
 	public:
 		const int IDLength = 0;
