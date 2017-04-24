@@ -23,9 +23,16 @@ void Image::ReadChunkInfo(vector<char> buffer) //read chunk info from buffer to 
 	ImgChunks.SetImgData((int)(Length*EntrySize));
 }
 
+void Image::WriteImageData(vector<char> buffer, ChunkInfo chunks)
+{
+	
+}
+
+/*
 void Image::TransferChannel(Image img, int channelID)
 {
 }
+*/
 
 char Channel::GetPixel(int i)
 {

@@ -1,4 +1,6 @@
 #include "ImageProcessor.h"
+#include <fstream>
+#include <iostream>
 
 //Load file from filename to buffer
 vector<char> ImageProcessor::readFileToBuffer(char* fname, bool verbose)
